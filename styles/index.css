@@ -4,9 +4,14 @@ section {
 	display: inline-block;
 }
 
- 
+header {
+ 	display: flex;
+ }
+
+
 
 /* classes */ 
+
 .logo {
 	color: #0A1B32;
 	font-family: 'Circular std', sans-serif;
@@ -24,7 +29,7 @@ section {
 
 }
 
-.main-title{
+.main-title {
 	color: #1B0A42;
 	font-family: 'Ramaraja', serif;
 	font-size: 72px;
@@ -38,8 +43,7 @@ section {
 	margin-top: 203px;
 }
 
-
-.main-info{
+.main-info {
 	color: #9A9A9A;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
@@ -53,7 +57,7 @@ section {
 	margin-top: 10px;
 }
 
-.main-btn{
+.main-btn {
 	color: #FFFFFF;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
@@ -71,4 +75,92 @@ section {
 	margin-left: 200px;
 	margin-bottom: 267px;
 	border: none;
+}
+
+.menu-home {
+	color: #1B0A42;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.32px;
+	margin-left: 98px;
+	margin-top: 48px;
+}
+
+.menu-about {
+	color: #1B0A42;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.32px;
+	margin-left: 38px;
+	margin-top: 48px;
+}
+
+.menu-blog {
+	color: #1B0A42;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.32px;
+	margin-left: 38px;
+	margin-top: 48px;
+}
+
+.menu-contact {
+	color: #1B0A42;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.32px;
+	margin-left: 38px;
+	margin-top: 48px;
+}
+
+.menu-signin {
+	color: #1B0A42;
+	text-align: initial;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.32px;
+	margin-left: 690px;
+	margin-top: 48px;
+	margin-right: 40px;
+	width: 100%;
+	white-space: nowrap;
+}
+
+.signup-btn {
+		color: #FFFFFF;
+		text-align: center;
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 32px; /* 200% */
+		letter-spacing: 0.32px;
+		width: 120px;
+		height: 59.651px;
+		flex-shrink: 0;
+		border-radius: 6px;
+		background: #4F56F1;
+		margin-right: 68px;
+		margin-top: 30px;
+		margin-bottom: 96px;
+		border: none;
 }
