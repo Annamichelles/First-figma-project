@@ -1,14 +1,10 @@
 /* tags */
 
+section {
+	display: inline-block;
+}
 
-
-
-
-
-
-
-
-
+ 
 
 /* classes */ 
 .logo {
@@ -26,4 +22,53 @@
 .logodot {
 	color: #4F56F1;
 
+}
+
+.main-title{
+	color: #1B0A42;
+	font-family: 'Ramaraja', serif;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 76px; /* 105.556% */
+	letter-spacing: 1.44px;
+	max-width: 495px;
+	width: 100%;
+	margin-left: 200px;
+	margin-top: 203px;
+}
+
+
+.main-info{
+	color: #9A9A9A;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px; /* 160% */
+	letter-spacing: 0.4px;
+	max-width: 583px;
+	width: 100%;
+	margin-left: 200px;
+	margin-top: 10px;
+}
+
+.main-btn{
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 32px; /* 200% */
+	letter-spacing: 0.32px;
+	width: 152px;
+	height: 64px;
+	flex-shrink: 0;
+	border-radius: 6px;
+	background: #4F56F1;
+	margin-top: 50px;
+	margin-left: 200px;
+	margin-bottom: 267px;
+	border: none;
 }
